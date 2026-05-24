@@ -17,7 +17,7 @@ spec:
       containers:
       - name: sample-app-container
         # Replace this URL with your actual ECR image URL from step 3
-        image: 007427784670.dkr.ecr.ap-south-1.amazonaws.com/devops/yogesh:1.0.0
+        image: 105959917488.dkr.ecr.ap-south-2.amazonaws.com/devops/dev:1.0.0
         ports:
         - containerPort: 3000
         resources:
